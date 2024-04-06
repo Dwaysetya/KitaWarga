@@ -1,0 +1,752 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    background-color: #e9e9e9;
+}
+/* .navbar{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: #ffff;
+    justify-content: space-around;
+    color: black;
+    padding-left: 0;
+}
+nav{
+    position: absolute;
+    z-index: 99;
+}
+.menu-bar ul{
+    display: flex;
+    list-style: none;
+    margin-top: 1.5%;
+    padding-left: 5%;
+}
+
+h3 a{
+    color: black;
+    font-weight: 700px;
+    font-style: normal;
+    padding-left: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+h3 a:hover{
+    color: #ffd700;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+.menu-bar ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 20px 10px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.daftarmasuk{
+    margin-right: -50PX;
+}
+nav .masuk a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 15px;
+}
+button{
+    background-color: rgb(242, 179, 0);
+    padding: 10px 12px;
+    border-radius: 10px;
+    text-align: center;
+    border-style: none;
+    left: 80%;
+    height: 46px;
+    width: 190px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #1677ff;
+}
+li a:hover{
+    color: #ffd700;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+.daftar{
+    background-color: #e9e9e9;
+    margin-top: -5px;
+    width: 70px;
+    height: 40px;
+    font-weight: bold;
+}
+.daftar a{
+    text-decoration: none;
+    color: black;
+}
+.daftar:hover{
+    background-color: #ffd700;
+    border-radius: 10px;
+    width: 70px;
+    height: 40px;
+} */
+.hero-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.elemenberanda{
+    width: 50%;
+}
+.content-1{
+    padding: 10% 2% 5% 15%;
+}
+.content-2{
+    padding:10% 5% 5% 29%;
+}
+.gambar1{
+    width: 50%;
+    position: relative;
+}
+.font-60{
+    color: #DD571c;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 4.5rem;
+}
+.elemenberanda h1{
+    padding: 70px 50px 0 0;
+}
+.hero-container p{
+    width: 62%;
+    font-weight: 500;
+}
+button{
+    left: 80%;
+    height: 46px;
+    width: 190px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 12px;
+    text-align: center;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(242, 179, 0);
+}
+button:hover{
+    background-color: #1677ff;
+}
+div .tejo{
+    top: 50%;
+    right: 25%;
+    width: 250px;
+    height: 70px;
+    margin: 100px;
+    padding: 50px;
+    z-index: 1;
+    position: absolute;
+    border-radius: 15px;
+    background-color: #0a0a5c;
+}
+.hero-container h5{
+    top: 5%;
+    color: white;
+    float: left;
+    position: absolute;
+}
+.tejo p{
+    top: 70%;
+    left: 60%;
+    color: rgb(242, 179, 0);;
+    position: absolute;
+}
+.tejo svg{
+    top: -10%;
+    left: -7%;
+    width: 50px;
+    height: 65px;
+    z-index: 0;
+    position: absolute;
+}
+.hero-container1{
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+    background-color: white;
+}
+.content-3{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1290px;
+}
+.judul{
+    width: 0 auto;
+    margin: 37px;
+    height: 0 auto;
+}
+.font-40{
+    color: #545454;
+    font-size: 2.5rem;
+}
+.judul .font-15{
+    margin: -2% auto;
+    font-weight: 300;
+}
+.content-4{
+    width: 100%;
+    display: flex;
+}
+.card{
+    width: 20%;
+    padding: 80px 37px;
+    margin-right: 5%;
+}
+.card .font-20{
+    font-size: 1.25rem;
+    text-align: center;
+}
+.card .font-15{
+    text-align: justify;
+    font-weight: 300;
+}
+.hero-container2{
+    width: 100%;
+    height: auto;
+    padding: 10% 0;
+    display: flex;
+    background-color: white;
+}
+.judul-5 .font-30{
+    margin: 0 auto;
+}
+.judul-5 .font-40{
+    margin: 10px 40px;
+}
+.judul-5 .font-15{
+    width: 80%;
+    text-align: justify;
+    margin-top: 30px;
+    font-weight: 300;
+}
+.content-5{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    max-width: 1290px;
+}
+.judul-5{
+    width: 0 auto;
+    margin: 37px;
+    height: 0 auto;
+}
+.hero-container2 .judul-5{
+    width: 50%;
+}
+.container {
+    width: 50%;
+    right: 0px;
+}
+.flexNullCenter{
+    display: flex;
+    align-items: center;
+}
+.content-6{
+    top: -100%;
+    width: 50%;
+    right: 0px;
+    height: 0 auto;
+    z-index: 1;
+    position: absolute;
+}
+.frAZaI {
+    width: 48%;
+    margin: 0px 6% 10px;
+}
+.flexNullCenter{
+    height: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.frAZaI img {
+    width: 90%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 15px;
+    border-radius: 1rem;
+}
+.hZvdhn {
+    width: 30%;
+    margin: 70px 0px 80px;
+    display: block;
+    
+}
+.hZvdhn img {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 15px;
+    border-radius: 1rem;
+}
+.lbRwtA {
+    width: 20%;
+    margin-left: 35%;
+}
+.lbRwtA img {
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 15px;
+    border-radius: 1rem;
+}
+.hVeQzd {
+    width: 30%;
+    margin: 0px 5% auto;
+}
+.hVeQzd img {
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 15px;
+    border-radius: 1rem;
+}
+.hero-container3{
+    width: 100%;
+    background-color: #e9e9e9;
+}
+.whitebag{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+}
+.judulmereka{
+    width: 100%;
+    height: 30%;
+    padding-bottom: 60px;
+}
+.judulmereka h1{
+    color: #545454;
+    font-size: 50px;
+    margin-left: 7%;
+    padding-top: 80px;
+}
+.judulmereka p{
+    font-size: 15px;
+    margin-top: -30px;
+    margin-left: 7%;
+}
+.hero-container4{
+    width: 100%;
+    height: o auto;
+    display: flex;
+    position: relative;
+    background-color: #ffff;
+}
+.quote{
+    width: 100%;
+    height: 185px;
+    margin: 0 40px;
+    border-radius: 15px;
+    background-color: #0a0a5c;
+}
+.quote h5{
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    padding-top: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.quote div p{
+    color: #ffd700;
+    float: right;
+    font-size: 13px;
+    font-style: italic;
+    padding-top: 6px;
+    font-weight: normal;
+    padding-right: 20px;
+}
+.quote svg{
+    width: 70px;
+    height: 65px;
+    z-index: 1;
+    position: absolute;
+    align-self: center;
+    margin-top: -2%;
+    padding-left: 165px;
+}
+.content-7{
+    width: 100%;
+    height: 0 auto;
+    display: flex;
+    background-color: #ffff;
+}
+.gambar6{
+    width: 50%;
+    height: auto;
+    padding: 10% 0 10% 7%;
+}
+.white{
+    padding-top: 18% ;
+}
+.hero-container6{
+    width: 100%;
+    height: 50px;
+    background-color: #e9e9e9;
+    padding-top:20px;
+}
+.hero-container6 h1{
+    font-family: "Outfit", sans-serif;
+    color: #545455;
+    font-size: 50px;
+    font-weight: bold;
+    padding:0 10%;
+}
+.hero-container6 p{
+    font-size: 15px;
+    padding: 0 10%;
+}
+form{
+    border: none;
+    padding: 10% 10%;
+}
+form:last-of-type {
+    border-bottom: none;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+input{
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.kirim{
+    margin-top: 20px;
+}
+form input,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  padding-top: 20px;
+  border-radius: 50px;
+  background-color: transparent;
+  border-style: none;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(112, 112, 112);
+}
+.button[type="button"]{
+    background-color: rgb(242, 179, 0);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    border-style: none;
+    left: 80%;
+    height: 46px;
+    width: 190px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.kirim input:hover{
+    background-color: #1677ff;
+}
+@media only screen and (max-width: 768px) {
+    .hero-container{
+        flex: 50%;
+        width: 100%;
+        position: relative;
+    }
+    .content-1{
+        padding: 0;
+    }
+    .hero-container p{
+        width: auto;
+        text-align: center;
+    }
+    .center button{
+        margin: 100%;
+    }
+    .container {
+        height: 200px;
+        position: relative;
+      }
+      .center {
+        top: 20%;
+        left: 50%;
+        margin: 0;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+    div .elemenberanda{
+        width: 100%;
+        margin-top: 90%;
+    }
+    .gambar1{
+        width: 80%;
+        position: absolute;
+    }
+    div .tejo{
+        top: 60%;
+        left: 10%;
+    }
+    .elemenberanda h1{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .content-4{
+        flex-direction: column;
+    }
+    .card{
+        width: 40%;
+        margin: 0 25%;
+        padding: 40px 37px;
+    }
+    .judul .font-40{
+        padding: 0 30%;
+    }
+    .card svg{
+        padding: 0 45%;
+    }
+    .card div h5, p{
+        text-align: center;
+    }
+    .card .font-15{
+        text-align: center;
+    }
+    div .card{
+        margin-right: 0;
+    }
+    div .font-40{
+        width: auto;
+        padding: 0 115px;
+        font-size: 2rem;
+    }
+    .hero-container2{
+        padding: 0;
+    }
+    .content-5{
+        position: relative;
+        padding-top: 80%;
+        flex-direction: column;
+    }
+    .content-6{
+        top: -450%;
+        left: 100px;
+        width: 150%;
+    }
+    .hero-container2 .judul-5{
+        width: 80%;
+        padding: 0 40px;
+        text-align: center;
+    }
+    .judul-5 .font-15{
+        padding: 0 61px;
+        text-align: center;
+    }
+    .hero-container4{
+        flex-direction: column;
+    }
+    .quote{
+        width: 60%;
+        margin: 20px 20%;
+    }
+    .quote svg{
+        margin-top: -5%;
+        padding-left: 25%;
+    }
+    .judulmereka h1{
+        text-align: center;
+        margin-left: 0;
+    }
+    .judulmereka p {
+        font-size: 12px;
+        margin-top: -30px;
+        margin-left: 0;
+    }
+    .content-7{
+        flex-direction: column;
+    }
+    button {
+        margin: 0 auto;
+    }
+    .gambar6 {
+        width: 50%;
+        height: auto;
+        padding: 30% 0 0 7%;
+    }
+    .gambar6 img{
+        width: 150%;
+        margin: 0 11%;
+    }
+    .alamat {
+        padding: 0 15%;
+        margin: 5% 0;
+    }
+    .white p{
+        text-align: left;
+    }
+    .hero-container6{
+        width: 50%;
+    }
+    .hero-container6 p {
+        width: 100%;
+        text-align: left;
+        padding: 5%;
+        margin-left: 16%;
+    }
+    form {
+        border: none;
+        padding: 10% 15%;
+    }
+}
+/*gadged responsive web design*/
+@media only screen and (max-width: 375px) {
+    div .content-1{
+        margin-top: 50%
+    }
+    div .content-2{
+        width: 100%;
+        padding: 0;
+    }
+    .gambar1{
+        width: 100%;
+    }
+    div .elemenberanda h1{
+        width: auto;
+    }
+    div .conten-png{
+        width: 100%;
+        margin-top: 10%;
+    }
+    img{
+        width: 80%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div .tejo{
+        top: 80%;
+        margin: 0;
+        height: 80px;
+        padding: 30px;
+
+    }
+    .hero-container h5{
+        font-size: 10px;
+    }
+    .hero-container h1{
+        font-size: 3rem;
+    }
+    .hero-container p {
+        margin: 12px 15px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    button{
+        margin: 50%;
+    }
+    .card{
+        margin: 0 75px;
+    }
+    .card svg{
+        padding: 0 40%;
+    }
+    .card .font-15{
+        font-size: 12px;
+    }
+    .judul .font-40{
+        padding: 0 14px;
+        font-size: 1.3rem;
+    }
+    .judul .font-15{
+        font-size: 12px;
+    }
+    div .font-40 {
+        width: auto;
+        padding: 0 20px;
+        font-size: 2rem;
+    }
+    .hero-container2{
+        width: 100%;
+    }
+    .hero-container2 .judul-5 {
+        width: auto;
+        padding: 0;
+        text-align: center;
+    }
+    .judul-5 .font-15{
+        width: 0 auto;
+        margin: 20px auto;
+        padding: 0;
+    }
+    .judul-5 .font-40{
+        margin: 20px auto;
+        padding: 0;
+    }
+    .flexNullCenter{
+        width: 100%;
+    }
+    .content-6 {
+        top: -430%;
+        left: 50px;
+        width: 150%;
+    }
+    .content-6{
+        top: -370%;
+        left: 50px;
+        width: 150%;
+    }
+    .judulmereka p, h1{
+        margin: 40px;
+    }
+    .quote{
+        width: 80%;
+        margin: 30px 10%;
+    }
+    .quote svg {
+        margin-top: -9%;
+        padding-left: 30%;
+    }
+    .quote h5 {
+        padding-top: 30px;
+        text-align: justify;
+    }
+    .white button {
+        margin: 0 auto;
+    }
+    h4{
+        font-size: 12px;
+    }
+    .white p{
+        font-size: 10px;
+    }
+    .content-7 img{
+        margin-left: 0;
+    }
+    .gambar6{
+        width: 50%;
+        margin: 0 6%;
+    }
+}
